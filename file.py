@@ -7,7 +7,7 @@ print(list3)
 
     # Пример 2. [1, 2, 3] => [[1, 2], [3]]
 list = [1, 2, 3]
-list1 = list[0:2]
+list1 = list[:2]
 list2 = list[2:]
 list3 = [list1, list2]
 print(list3)
